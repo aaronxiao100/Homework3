@@ -7,6 +7,8 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
 
+        System.out.println("You are playing a game of guessing numbers with your friend. Your friend will choose a number and you'll try and guess it and your friend will tell you how close you are from the number. ");
+
         int difficultyLevel;
         int maxNumber = 100;
         int numberToGuess;
